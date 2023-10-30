@@ -3,20 +3,7 @@ body {
     color: #434455;
     background-color: #ffffff;
 }
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-ul,
-ol {
+ul,ol {
     margin-top: 0;
     margin-bottom: 0;
     padding-left: 0;
@@ -26,6 +13,11 @@ img {
     display: block;
     max-width: 100%;
     height: auto;
+}
+
+h1,h2,h3,h4,p {
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .container {
@@ -488,7 +480,7 @@ img {
     color: #f4f4fd;
 }
 
-/*----------------------------*/
+/* --------------- footer -----------------*/
 .footer-container {
     display: flex;
     flex-direction: column;
@@ -838,6 +830,9 @@ button {
     margin-bottom: 24px;
 }
 
+
+/* --------------- 768px -----------------*/
+
 @media screen and (max-width: 768px) {
     .footer-container {
         display: flex;
@@ -1010,11 +1005,15 @@ button {
     }
 }
 
+/* --------------- 1158px -----------------*/
+
 @media screen and (max-width: 1158px) {
     .footer-container {
         gap: 72px 24px;
     }
 }
+
+/* --------------- 768px - 1158px -----------------*/
 
 @media screen and (min-width: 768px) and (max-width: 1158px) {
     .modal {
